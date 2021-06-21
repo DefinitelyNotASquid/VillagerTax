@@ -1,0 +1,7 @@
+name: VillagerTax
+version: 1.4
+main: com.mith.VillagerTax.VillagerTax
+api-version: 1.17
+commands:
+  villagertaxreload:
+    description: Primary plugin command

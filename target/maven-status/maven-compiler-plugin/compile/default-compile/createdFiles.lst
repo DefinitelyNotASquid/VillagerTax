@@ -1,0 +1,3 @@
+com\mith\VillagerTax\VillagerTax.class
+com\mith\VillagerTax\listeners\VillagerListener.class
+com\mith\VillagerTax\commands\CommandReload.class

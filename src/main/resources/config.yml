@@ -1,0 +1,235 @@
+#=========================================================#
+#                                                         #
+#					  Villager Tax                        #
+#														  #
+#=========================================================#
+
+#Each one of the following enchants can be adjusted individually by changing some of the values.
+#blocks (true/false) is whether it will be charged in blocks or individual emeralds.
+#level_cost (Number) is how many emeralds or emerald blocks will be required for each level of the enchant.
+
+#Note: I've hard coded the modifiers on the merchant (merchants are what spigot considers villages
+# who can trade items) so that the "Hero of the village" Discount and Village debuffs dont apply
+# to player trading costs, what is set here is what the user HAS to pay to get the Enchantment.
+
+#power enchant
+#max level is 5 (so level cost cant exceed 12)
+power:
+  blocks: false
+  level_cost: 10
+
+#flame enchant
+#max level is 2 (so level cost cant exceed 32)
+flame:
+  blocks: false
+  level_cost: 12
+
+#infinity enchant
+#max level is 1 (so level cost cant exceed 64)
+infinity:
+  blocks: false
+  level_cost: 36
+
+#punch enchant
+#max level is 2 (so level cost cant exceed 32)
+punch:
+  blocks: false
+  level_cost: 15
+
+#curse of binding enchant
+#max level is 1 (so level cost cant exceed 64)
+binding_curse:
+  blocks: false
+  level_cost: 5
+
+#channeling enchant
+#max level is 1 (so level cost cant exceed 64)
+channeling:
+  blocks: false
+  level_cost: 22
+
+#sharpness enchant
+#max level is 5 (so level cost cant exceed 12)
+sharpness:
+  blocks: false
+  level_cost: 10
+
+#bane of arthropods enchant
+#max level is 4 (so level cost cant exceed 16)
+bane_of_arthropods:
+  blocks: false
+  level_cost: 8
+
+#smite enchant
+#max level is 5 (so level cost cant exceed 12)
+smite:
+  blocks: false
+  level_cost: 9
+
+#depth strider enchant
+#max level is 3 (so level cost cant exceed 21)
+depth_strider:
+  blocks: false
+  level_cost: 10
+
+#efficency enchant
+#max level is 5 (so level cost cant exceed 12)
+efficiency:
+  blocks: false
+  level_cost: 11
+
+#unbreaking enchant
+#max level is 3 (so level cost cant exceed 21)
+unbreaking:
+  blocks: false
+  level_cost: 18
+
+#fire aspect enchant
+#max level is 2 (so level cost cant exceed 32)
+fire_aspect:
+  blocks: false
+  level_cost: 14
+
+#frost walker enchant
+#max level is 2 (so level cost cant exceed 32)
+frost_walker:
+  blocks: false
+  level_cost: 16
+
+#impailing enchant
+#max level is 5 (so level cost cant exceed 12)
+impaling:
+  blocks: false
+  level_cost: 9
+
+#knockback enchant
+#max level is 2 (so level cost cant exceed 32)
+knockback:
+  blocks: false
+  level_cost: 20
+
+#fortune enchant
+#max level is 3 (so level cost cant exceed 21)
+fortune:
+  blocks: false
+  level_cost: 21
+
+#looting enchant
+#max level is 3 (so level cost cant exceed 21)
+looting:
+  blocks: false
+  level_cost: 21
+
+#loyalty
+#max level is 3 (so level cost cant exceed 21)
+loyalty:
+  blocks: false
+  level_cost: 15
+
+#luck of the sea enchant
+#max level is 3 (so level cost cant exceed 21)
+luck_of_the_sea:
+  blocks: false
+  level_cost: 14
+
+#lure enchant
+#max level is 3 (so level cost cant exceed 21)
+lure:
+  blocks: false
+  level_cost: 15
+
+#mending enchant
+#max level is 1 (so level cost cant exceed 64)
+mending:
+  blocks: true
+  level_cost: 24
+
+#multishot enchant
+#max level is 1 (so level cost cant exceed 64)
+multishot:
+  blocks: false
+  level_cost: 55
+
+#respiration enchant
+#max level is 3 (so level cost cant exceed 21)
+respiration:
+  blocks: false
+  level_cost: 18
+
+#piercing enchant
+#max level is 4 (so level cost cant exceed 16)
+piercing:
+  blocks: false
+  level_cost: 12
+
+#protection
+#max level is 4 (so level cost cant exceed 16)
+protection:
+  blocks: false
+  level_cost: 14
+
+#blast protection enchant
+#max level is 4 (so level cost cant exceed 16)
+blast_protection:
+  blocks: false
+  level_cost: 14
+
+#feather falling enchant
+#max level is 4 (so level cost cant exceed 16)
+feather_falling:
+  blocks: false
+  level_cost: 14
+
+#fire protection enchant
+#max level is 4 (so level cost cant exceed 16)
+fire_protection:
+  blocks: false
+  level_cost: 14
+
+#projectile protection enchant
+#max level is 4 (so level cost cant exceed 16)
+projectile_protection:
+  blocks: false
+  level_cost: 14
+
+#quick charge enchant
+#max level is 3 (so level cost cant exceed 21)
+quick_charge:
+  blocks: false
+  level_cost: 10
+
+#riptide enchant
+#max level is 3 (so level cost cant exceed 21)
+riptide:
+  blocks: false
+  level_cost: 12
+
+#silk touch enchant
+#max level is 1 (so level cost cant exceed 64)
+silk_touch:
+  blocks: false
+  level_cost: 47
+
+#sweeping edge enchant
+#max level is 3 (so level cost cant exceed 21)
+sweeping:
+  blocks: false
+  level_cost: 16
+
+#thorns enchant
+#max level is 3 (so level cost cant exceed 21)
+thorns:
+  blocks: false
+  level_cost: 16
+
+#curse of vanishing enchant
+#max level is 1 (so level cost cant exceed 64)
+vanishing_curse:
+  blocks: false
+  level_cost: 10
+
+#aqua affinity
+#max level is 1 (so level cost cant exceed 64)
+aqua_affinity:
+  blocks: false
+  level_cost: 32
