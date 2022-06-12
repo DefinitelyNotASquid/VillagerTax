@@ -1,7 +1,7 @@
 name: VillagerTax
 version: ${project.version}
 main: com.mith.VillagerTax.VillagerTax
-api-version: 1.17
+api-version: 1.19
 commands:
   villagertaxreload:
     description: Primary plugin command

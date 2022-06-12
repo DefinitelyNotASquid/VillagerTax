@@ -36,8 +36,6 @@ public class VillagerListener implements Listener {
 
     }
 
-
-
     @EventHandler
     public void onPlayerMerchantOpen(InventoryOpenEvent event) {
 
